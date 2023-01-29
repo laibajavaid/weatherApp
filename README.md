@@ -15,10 +15,24 @@ React JS
 
 * Weather data is retrieved from http://openweathermap.org/
 
-## Scripts
+## Usage
+
+Clone the repository to your local machine
+```bash
+git clone git@github.com:laibajavaid/weatherApp.git
+```
+
+Change into the prject directory 
+```bash
+cd weatherApp
+```
+
+Install dependencies 
+```bash
+npm install
+```
 
 In the project directory, you can run:
-
 ```bash
 npm start
 ```
