@@ -1,4 +1,4 @@
-# Weather Aapp 
+# Weather App 
 
 ## Purpose
 
@@ -11,12 +11,18 @@ CSS
 
 React JS
 
+## Scripts
+
+In the project directory, you can run:
+
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
 ## Screen Recording
 
-https://user-images.githubusercontent.com/77513009/198910634-dc8a5467-dde1-49a0-984f-a81b560594cb.mov
+https://user-images.githubusercontent.com/77513009/215304802-a2e1b44f-e598-4c4b-9bc3-694595118dfb.mov
 
-
-https://user-images.githubusercontent.com/77513009/198910868-635bb632-189e-43b3-9ae9-5dac7e13d808.mov
-
-
-** Two screen recordings had to be upload because one file was too big to upload
