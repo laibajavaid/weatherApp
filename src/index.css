@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Optima", sans-serif;
+}
+
+.app {
+  background-image: url('./resources/background.webp');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.app.warmBackground {
+  background-image: url('./resources/warmMountain.jpeg');
+  background-position: right;
+}
+
+.app.coolBackground {
+  background-image: url('./resources/coolMountain.webp');
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.65));
+}
+
+.searchBox {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 15px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 25px;
+
+  appearance: none;
+  outline: none;
+  border: none;
+
+  transition: 0.4s ease;
+}
+
+.searchBox .searchBar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.locationBox, .location {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.locationBox .date {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0px 0px;
+}
+
+.weatherBox {
+  text-align: center;
+}
+
+.weatherBox .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 105px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weatherBox .showWeather {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
