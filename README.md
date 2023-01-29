@@ -11,6 +11,10 @@ CSS
 
 React JS
 
+##APIs 
+
+### Weather data is retrieved from http://openweathermap.org/
+
 ## Scripts
 
 In the project directory, you can run:
