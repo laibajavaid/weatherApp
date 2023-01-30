@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A weather app where the user can enter a city after which it uses an external API to provide information on the city's weather.  This employs React hooks and conditions combined with the Modern Javascript Fetch AP. This was my first project using React JS.
+A weather app where the user can enter a city after which it uses an external API to provide information on the city's weather.  This employs React hooks and conditions combined with the Modern Javascript Fetch API. This was my first project using React JS.
 
 ## Built With
 HTML
