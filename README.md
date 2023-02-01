@@ -15,7 +15,7 @@ Clone the repository to your local machine
 git clone git@github.com:laibajavaid/weatherApp.git
 ```
 
-Change into the prject directory 
+Change into the project directory 
 ```bash
 cd weatherApp
 ```
